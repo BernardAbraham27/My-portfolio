@@ -1,22 +1,49 @@
-/* Apply styles to the body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Style a heading */
-h1 {
-    color: #007bff;
+header {
+    background-color: #1e1e1e;
+    padding: 15px 0;
 }
 
-/* Style a button */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 30px;
+    margin: 5px;
+}
+
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #61dafb;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -25,5 +52,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #4fa3d1;
 }

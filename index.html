@@ -3,14 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <script>
-        function changeText() {
-            document.getElementById("message").textContent = "Hello, JavaScript!";
-        }
-    </script>s
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="certificate.html">Certificates</a></li>
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="animated-section">
+        <h2 style="text-align: center;">LANGUAGE PROFICIENCY</h2>
+        <ul style="text-align: left;">
+            <li>Helpdesk</li>
+            <li>networking</li>
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>HTML, CSS</li>
+        </ul>
+    </section>
+  
+    <section class="animated-section">
+        <h2 style="text-align: center;">Download My Resume</h2>
+        <div style="text-align: center;">
+            <a href="assets/Bernard CV.pdf" download="Bernard CV.pdf" class="download-btn">Download Resume</a>
+        </div>
+    </section>
     
+    <!-- Resume Button Styling -->
+    <style>
+        .download-btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: var(--primary-color);
+            color: #121212;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+        }
+        
+        .download-btn:hover {
+            background: #2ab865;
+            transform: scale(1.1);
+        }
+    </style>
+
+<section id="contact" class="animated-section">
+    <h2>Contact</h2>
+    <div class="social-links">
+        <a href="https://www.github.com/mahesh-002" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/maheshwaran002" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/maheshwaran_in" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/917871939594" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:dmmahesh002@outlook.com"><i class="fas fa-envelope"></i></a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Bernard Abraham E. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
